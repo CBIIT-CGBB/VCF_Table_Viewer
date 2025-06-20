@@ -8,5 +8,5 @@ Variant calling pipelines produce variant caller format (VCF) files.  VCF files 
 
 ## Implementation
 
-The current version of VCF Table Viewer is tightly organized around the output from the Nextflow-core sarek pipeline, as well as the specific sample naming conventions used in our WES study.  Thus the usage of specific .txt files for the dropdown menus. There is a list of individuals, and a mapping from individual to haplotypecaller .vcf file. 
+The current version of VCF Table Viewer is tightly organized around the output from the Nextflow-core sarek pipeline, as well as the specific sample naming conventions used in our WES study.  Thus the usage of specific .txt files for the dropdown menus. There is a list of individuals (individual_list_unique.txt), lists of specific genes to highlight (gene_lists.txt), a list of samples (sample_list.txt), and a mapping from individual to haplotypecaller .vcf file (hap_list.txt). 
 
