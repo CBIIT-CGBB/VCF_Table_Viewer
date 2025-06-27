@@ -2,6 +2,8 @@
 #################
 allele_freqs.png            
 rsconnect/                   
+test_DT.R
+test_text.R
 vcfs/
 vcf_table_shiny_debug.R
 vcf_table_shiny_debug2.R
