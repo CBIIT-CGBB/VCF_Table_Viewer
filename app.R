@@ -28,7 +28,8 @@ library(GenomicAlignments)
 addResourcePath("tmpuser", getwd()) 
 
 global <- reactiveValues(sarekDir = "./",  
-                         vcfDir = "./example_data/vcfs/filtered/", bamDir = "/mnt/BW-Data/recalibrated/")
+                         vcfDir = "./example_data/vcfs/filtered/", 
+                         bamDir = "/mnt/BW-Data/recalibrated/")
 
 ### Sarek directory
 #sarekDir_default <- "./"
