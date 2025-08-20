@@ -1,13 +1,7 @@
 # Repo Specific #
 #################
-allele_freqs.png            
 rsconnect/                   
-test_DT.R
-test_text.R
 vcfs.orig/
-vcf_table_shiny.R
-vcf_table_shiny_debug.R
-vcf_table_shiny_debug2.R
 
 # Compiled source #
 ###################
