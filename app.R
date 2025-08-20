@@ -445,7 +445,7 @@ server <- function(input, output, session) {
     # rename AF columns
     if (caller == "haplotypecaller") {
       my.vcf.ANN.df <- my.vcf.ANN.df |> rename("AF...11" = "AF", "AF...70" = "AF_TG") # requires AF to be in columns 11 and 69
-      write.table(my.vcf.ANN.df, file="my.vcf.ANN.df.txt", quote=F)
+      #write.table(my.vcf.ANN.df, file="my.vcf.ANN.df.txt", quote=F)
     }
     #print(dim(my.vcf.ANN.df))
     #Warning: Expected 93 pieces. Additional pieces discarded in 7 rows [1, 2, 3, 4, 5, 6, 7].
